@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5546E6EA19D3C45C00BA6ECB /* THCrystalBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 5546E6E919D3C45C00BA6ECB /* THCrystalBall.m */; };
+		55BA12A41B0026DA00397307 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 55BA12A31B0026DA00397307 /* .travis.yml */; };
 		55C940A319CA6F4800C4317F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C940A219CA6F4800C4317F /* Foundation.framework */; };
 		55C940A519CA6F4800C4317F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C940A419CA6F4800C4317F /* CoreGraphics.framework */; };
 		55C940A719CA6F4800C4317F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C940A619CA6F4800C4317F /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		5546E6E819D3C45C00BA6ECB /* THCrystalBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCrystalBall.h; sourceTree = "<group>"; };
 		5546E6E919D3C45C00BA6ECB /* THCrystalBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCrystalBall.m; sourceTree = "<group>"; };
+		55BA12A31B0026DA00397307 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		55C9409F19CA6F4800C4317F /* CrystalBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C940A219CA6F4800C4317F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55C940A419CA6F4800C4317F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -139,6 +141,7 @@
 		55C940A919CA6F4800C4317F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55BA12A31B0026DA00397307 /* .travis.yml */,
 				55C940B119CA6F4800C4317F /* THAppDelegate.h */,
 				55C940B219CA6F4800C4317F /* THAppDelegate.m */,
 				55C940AA19CA6F4800C4317F /* CrystalBall-Info.plist */,
@@ -247,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BA12A41B0026DA00397307 /* .travis.yml in Resources */,
 				55F04DCC1B001F0C00FE1DE1 /* alert.mp3 in Resources */,
 				55C940BB19CA6F4800C4317F /* Images.xcassets in Resources */,
 				55C940AD19CA6F4800C4317F /* InfoPlist.strings in Resources */,
