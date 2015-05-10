@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5546E6EA19D3C45C00BA6ECB /* THCrystalBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 5546E6E919D3C45C00BA6ECB /* THCrystalBall.m */; };
 		55C940A319CA6F4800C4317F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C940A219CA6F4800C4317F /* Foundation.framework */; };
 		55C940A519CA6F4800C4317F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C940A419CA6F4800C4317F /* CoreGraphics.framework */; };
 		55C940A719CA6F4800C4317F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C940A619CA6F4800C4317F /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		55C940C419CA6F4800C4317F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C940A619CA6F4800C4317F /* UIKit.framework */; };
 		55C940CC19CA6F4800C4317F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55C940CA19CA6F4800C4317F /* InfoPlist.strings */; };
 		55C940CE19CA6F4800C4317F /* CrystalBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C940CD19CA6F4800C4317F /* CrystalBallTests.m */; };
+		55E36AB119D8FC9600212A90 /* crystal_ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55E36AB019D8FC9600212A90 /* crystal_ball.mp3 */; };
+		55E36AB319D8FDBF00212A90 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E36AB219D8FDBF00212A90 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5546E6E819D3C45C00BA6ECB /* THCrystalBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCrystalBall.h; sourceTree = "<group>"; };
+		5546E6E919D3C45C00BA6ECB /* THCrystalBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCrystalBall.m; sourceTree = "<group>"; };
 		55C9409F19CA6F4800C4317F /* CrystalBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C940A219CA6F4800C4317F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55C940A419CA6F4800C4317F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,8 @@
 		55C940C919CA6F4800C4317F /* CrystalBallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrystalBallTests-Info.plist"; sourceTree = "<group>"; };
 		55C940CB19CA6F4800C4317F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55C940CD19CA6F4800C4317F /* CrystalBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalBallTests.m; sourceTree = "<group>"; };
+		55E36AB019D8FC9600212A90 /* crystal_ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crystal_ball.mp3; sourceTree = "<group>"; };
+		55E36AB219D8FDBF00212A90 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E36AB319D8FDBF00212A90 /* AudioToolbox.framework in Frameworks */,
 				55C940A519CA6F4800C4317F /* CoreGraphics.framework in Frameworks */,
 				55C940A719CA6F4800C4317F /* UIKit.framework in Frameworks */,
 				55C940A319CA6F4800C4317F /* Foundation.framework in Frameworks */,
@@ -101,6 +109,7 @@
 		55C940A119CA6F4800C4317F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55E36AB219D8FDBF00212A90 /* AudioToolbox.framework */,
 				55C940A219CA6F4800C4317F /* Foundation.framework */,
 				55C940A419CA6F4800C4317F /* CoreGraphics.framework */,
 				55C940A619CA6F4800C4317F /* UIKit.framework */,
@@ -112,13 +121,14 @@
 		55C940A819CA6F4800C4317F /* CrystalBall */ = {
 			isa = PBXGroup;
 			children = (
-				55C940B119CA6F4800C4317F /* THAppDelegate.h */,
-				55C940B219CA6F4800C4317F /* THAppDelegate.m */,
+				55E36AB019D8FC9600212A90 /* crystal_ball.mp3 */,
 				55C940B419CA6F4800C4317F /* Main.storyboard */,
 				55C940B719CA6F4800C4317F /* THViewController.h */,
 				55C940B819CA6F4800C4317F /* THViewController.m */,
 				55C940BA19CA6F4800C4317F /* Images.xcassets */,
 				55C940A919CA6F4800C4317F /* Supporting Files */,
+				5546E6E819D3C45C00BA6ECB /* THCrystalBall.h */,
+				5546E6E919D3C45C00BA6ECB /* THCrystalBall.m */,
 			);
 			path = CrystalBall;
 			sourceTree = "<group>";
@@ -126,6 +136,8 @@
 		55C940A919CA6F4800C4317F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55C940B119CA6F4800C4317F /* THAppDelegate.h */,
+				55C940B219CA6F4800C4317F /* THAppDelegate.m */,
 				55C940AA19CA6F4800C4317F /* CrystalBall-Info.plist */,
 				55C940AB19CA6F4800C4317F /* InfoPlist.strings */,
 				55C940AE19CA6F4800C4317F /* main.m */,
@@ -200,6 +212,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = RockITProject;
 				TargetAttributes = {
+					55C9409E19CA6F4800C4317F = {
+						DevelopmentTeam = Z9QBE23Y3C;
+					};
 					55C940BF19CA6F4800C4317F = {
 						TestTargetID = 55C9409E19CA6F4800C4317F;
 					};
@@ -231,6 +246,7 @@
 			files = (
 				55C940BB19CA6F4800C4317F /* Images.xcassets in Resources */,
 				55C940AD19CA6F4800C4317F /* InfoPlist.strings in Resources */,
+				55E36AB119D8FC9600212A90 /* crystal_ball.mp3 in Resources */,
 				55C940B619CA6F4800C4317F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +269,7 @@
 				55C940B919CA6F4800C4317F /* THViewController.m in Sources */,
 				55C940B319CA6F4800C4317F /* THAppDelegate.m in Sources */,
 				55C940AF19CA6F4800C4317F /* main.m in Sources */,
+				5546E6EA19D3C45C00BA6ECB /* THCrystalBall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +474,7 @@
 				55C940D319CA6F4800C4317F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55C940D419CA6F4800C4317F /* Build configuration list for PBXNativeTarget "CrystalBallTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +483,7 @@
 				55C940D619CA6F4800C4317F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
