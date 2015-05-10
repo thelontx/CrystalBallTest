@@ -25,7 +25,7 @@
     
     //locating sound file
     //1st line is the path to soundfile;  starts with the mainBundle; provides directory path of file
-    NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"crystal_ball" ofType:@"mp3"];
+    NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"alert" ofType:@"mp3"];
     //2nd line is the "URL" that corresponds to the path;  AudioServices can't just use a path, must use the equivalent of an URL for the file
     NSURL *soundURL = [NSURL fileURLWithPath:soundPath];
     //3rd line is C function; takes soundURL object and stores into soundEffect instance variable;  & is the reference to the pointer for the instance variable;  not actually returning a value; setting a value

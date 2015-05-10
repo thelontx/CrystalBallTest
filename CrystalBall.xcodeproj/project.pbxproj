@@ -24,6 +24,7 @@
 		55C940CE19CA6F4800C4317F /* CrystalBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C940CD19CA6F4800C4317F /* CrystalBallTests.m */; };
 		55E36AB119D8FC9600212A90 /* crystal_ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55E36AB019D8FC9600212A90 /* crystal_ball.mp3 */; };
 		55E36AB319D8FDBF00212A90 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E36AB219D8FDBF00212A90 /* AudioToolbox.framework */; };
+		55F04DCC1B001F0C00FE1DE1 /* alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55F04DCB1B001F0C00FE1DE1 /* alert.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		55C940CD19CA6F4800C4317F /* CrystalBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalBallTests.m; sourceTree = "<group>"; };
 		55E36AB019D8FC9600212A90 /* crystal_ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crystal_ball.mp3; sourceTree = "<group>"; };
 		55E36AB219D8FDBF00212A90 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		55F04DCB1B001F0C00FE1DE1 /* alert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alert.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		55C940A819CA6F4800C4317F /* CrystalBall */ = {
 			isa = PBXGroup;
 			children = (
+				55F04DCB1B001F0C00FE1DE1 /* alert.mp3 */,
 				55E36AB019D8FC9600212A90 /* crystal_ball.mp3 */,
 				55C940B419CA6F4800C4317F /* Main.storyboard */,
 				55C940B719CA6F4800C4317F /* THViewController.h */,
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F04DCC1B001F0C00FE1DE1 /* alert.mp3 in Resources */,
 				55C940BB19CA6F4800C4317F /* Images.xcassets in Resources */,
 				55C940AD19CA6F4800C4317F /* InfoPlist.strings in Resources */,
 				55E36AB119D8FC9600212A90 /* crystal_ball.mp3 in Resources */,
