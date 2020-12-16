@@ -1,3 +1,2 @@
-# CrystalBallTest
-Testing
-what do you think
+# Initial page
+
